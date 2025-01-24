@@ -1,0 +1,1 @@
+katalon_logo = "(//img[@alt='Katalon Logo'])[1]"

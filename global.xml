@@ -1,0 +1,11 @@
+<testdata> 
+<applicationurl>https://katalon.com</applicationurl> 
+<useid>testUser</useid> 
+<password>Password$$#1</password> 
+<chrome_path>/Users/mkroy/Downloads/chromedriver</chrome_path> 
+<email>mithunroy.ee@gmail.com</email> 
+<herokuappurl>https://the-internet.herokuapp.com</herokuappurl>
+<alerttext>Robot Framework Learning</alerttext>
+<applicationurl1>https://www.letskodeit.com/practice</applicationurl1> 
+<iframeurl>https://demo.automationtesting.in/Frames.html</iframeurl>
+</testdata>

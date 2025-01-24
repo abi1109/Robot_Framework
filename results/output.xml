@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on darwin)" generated="2025-01-22T17:59:15.548331" rpa="false" schemaversion="5">
+<suite id="s1" name="Tags" source="/Users/apple/Documents/python_training/Robot_Framework/scripts/tags.robot">
+<test id="s1-t1" name="Test Case 7" line="5">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is test case 1</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-22T17:59:15.575123" elapsed="0.000185"/>
+</kw>
+<tag>Smoke</tag>
+<status status="PASS" start="2025-01-22T17:59:15.574463" elapsed="0.001013"/>
+</test>
+<test id="s1-t2" name="Test Case 10" line="14">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>This is test case 4</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-01-22T17:59:15.575934" elapsed="0.000140"/>
+</kw>
+<tag>Smoke</tag>
+<status status="PASS" start="2025-01-22T17:59:15.575669" elapsed="0.000527"/>
+</test>
+<doc>Tags in Robot Framework</doc>
+<status status="PASS" start="2025-01-22T17:59:15.549927" elapsed="0.026580"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="2" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat name="Tags" id="s1" pass="2" fail="0" skip="0">Tags</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.13.1 on darwin)" generated="2025-01-22T18:00:05.421454" rpa="false" schemaversion="5">
+<suite id="s1" name="Google" source="/Users/apple/Documents/python_training/Robot_Framework/scripts/Google.robot">
+<test id="s1-t1" name="Open Google" line="10">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-22T18:00:05.678501" level="INFO">Opening browser 'Headlesschrome' to base url 'https://www.google.com/'.</msg>
+<arg>${CHROME_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-22T18:00:05.678269" elapsed="4.327977"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-22T18:00:13.009766" level="INFO">Slept 3 seconds.</msg>
+<arg>3 seconds</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-22T18:00:10.007007" elapsed="3.003061"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-01-22T18:00:13.010686" elapsed="0.094015"/>
+</kw>
+<status status="PASS" start="2025-01-22T18:00:05.677365" elapsed="7.427598"/>
+</test>
+<test id="s1-t2" name="Open SauceDemo" line="15">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-01-22T18:00:13.105966" level="INFO">Opening browser 'Headlesschrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>${SAUCE_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-01-22T18:00:13.105680" elapsed="1.971514"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-01-22T18:00:18.078778" level="INFO">Slept 3 seconds.</msg>
+<arg>3 seconds</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-01-22T18:00:15.077859" elapsed="3.001124"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-01-22T18:00:18.079408" elapsed="0.094287"/>
+</kw>
+<status status="PASS" start="2025-01-22T18:00:13.105278" elapsed="5.068706"/>
+</test>
+<status status="PASS" start="2025-01-22T18:00:05.423278" elapsed="12.751283"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Google" id="s1" pass="2" fail="0" skip="0">Google</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
